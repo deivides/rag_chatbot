@@ -1,21 +1,21 @@
 # 🤖 Chatbot with RAG and Multiple LLM Support
 
-This project implements a chatbot that leverages the power of **Retrieval-Augmented Generation (RAG)** to answer questions based on user-uploaded PDF documents. It utilizes multiple Large Language Models (LLMs) from OpenAI, facilitated by the **Langchain** framework, and provides a user-friendly interface built with **Streamlit**.
+This project implements a chatbot that leverages the power of **Retrieval Augmented Generation (RAG)** to answer questions based on user uploaded PDF documents. It utilizes multiple Large Language Models (LLMs) from OpenAI, facilitated by the **Langchain** framework, and provides a user friendly interface built with **Streamlit**.
 
 ## ✨ Features
 
 * **Document Upload:** Easily upload multiple PDF files to be used as the knowledge base.
-* **RAG Implementation:** Employs Retrieval-Augmented Generation to provide contextually relevant answers by combining information retrieval with LLM generation.
+* **RAG Implementation:** Employs Retrieval Augmented Generation to provide contextually relevant answers by combining information retrieval with LLM generation.
 * **Multiple LLM Support:** Choose between various OpenAI models (`gpt-3.5-turbo`, `gpt-4`, `gpt-4-turbo`, `gpt-4o-mini`, `gpt-4o`) to experiment with different response styles and capabilities.
 * **Vector Database:** Creates and utilizes a vectorized **SQLite** database (using ChromaDB) to store embeddings of the document chunks for efficient semantic search. 💾
-* **Contextual Conversations:** Maintains the history of your conversation, allowing for more natural and follow-up questions. 💬
-* **User-Friendly Interface:** Built with Streamlit for an intuitive and interactive experience. streamlit
+* **Contextual Conversations:** Maintains the history of your conversation, allowing for more natural and follow up questions. 💬
+* **User Friendly Interface:** Built with Streamlit for an intuitive and interactive experience. streamlit
 * **Local Processing:** Your files are processed locally, ensuring data privacy. 🔒
 
 ## 🛠️ Technologies Used
 
 * **Python:** The primary programming language.
-* **Langchain:** A framework for building LLM-powered applications. 🔗
+* **Langchain:** A framework for building LLM powered applications. 🔗
 * **Streamlit:** A library for creating interactive web applications. streamlit
 * **OpenAI API:** For accessing Large Language Models and embedding models. 🔑
 * **`decouple`:** To manage API keys and other configurations securely.
@@ -25,7 +25,7 @@ This project implements a chatbot that leverages the power of **Retrieval-Augmen
 * **`OpenAIEmbeddings` (from `langchain_openai`):** To generate vector embeddings of the text chunks.
 * **`ChatPromptTemplate` (from `langchain_core.prompts`):** To create structured prompts for the LLMs.
 * **`create_stuff_documents_chain` (from `langchain.chains.combine_documents`):** To combine retrieved documents with the question for the LLM.
-* **`create_retrieval_chain` (from `langchain.chains.retrieval`):** To create the end-to-end retrieval and generation chain.
+* **`create_retrieval_chain` (from `langchain.chains.retrieval`):** To create the end to end retrieval and generation chain.
 
 ## ⚙️ Setup
 
