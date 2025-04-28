@@ -59,17 +59,6 @@ This project implements a chatbot that leverages the power of **Retrieval-Augmen
     * The LLM generates a response based on the provided context.
 3.  **Chat History:** The application keeps track of the conversation history, allowing the LLM to consider previous turns when generating the next response, leading to more coherent and contextual interactions. 💬
 
-## 📂 Directory Structure (Example)
-
-Markdown
-
-.
-├── .env
-├── db/           # Directory where the Chroma vector database is stored (SQLite files) 💾
-├── requirements.txt
-└── your_script_name.py  # Your main Streamlit application file
-
-
 ## 🚀 Usage
 
 1.  Open the Streamlit application in your web browser.
